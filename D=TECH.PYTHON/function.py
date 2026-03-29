@@ -36,6 +36,7 @@ print(add(10,20))'''
 add()'''
 
 # parameter function
+#1
 '''
 def  rseven(n):
     if(n%2 ==0):
@@ -44,6 +45,14 @@ def  rseven(n):
         print("Numbsr is odd:")
         rseven(10)
         rseven(11)'''
+        #2
+'''def even_odd(x):
+    if(x%2==0):
+        return "Even"
+    else:
+        return "Odd"
+print(even_odd(15))
+print(even_odd(5))'''
 
 '''# non parameter function
 def rseven():
