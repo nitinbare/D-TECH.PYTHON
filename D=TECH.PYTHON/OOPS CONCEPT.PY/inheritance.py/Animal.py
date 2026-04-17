@@ -8,11 +8,10 @@ class Person:
         print("Name:", self.name)
         print("Age:", self.age)
 
-
 # Derived class
 class Student(Person):
     def __init__(self, name, age, student_id):
-        super().__init__(name, age)
+        super(). __init__(name, age)
         self.student_id = student_id
 
     def display_student(self):
@@ -22,7 +21,7 @@ class Student(Person):
 # Derived class from Student
 class GraduateStudent(Student):
     def __init__(self, name, age, student_id, degree):
-        super().__init__(name, age, student_id)
+        super(). __init__(name, age, student_id)
         self.degree = degree
 
     def display_graduate(self):

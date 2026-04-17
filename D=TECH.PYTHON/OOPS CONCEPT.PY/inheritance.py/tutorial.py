@@ -18,8 +18,8 @@ class Teacher(School):
         self.salary = salary
     def teacher_info(self):
         self.school_info()
-        print("Subject:", self.subject)
-        print("Salary:" , self.salary)
+        print("Salary:", self.salary)
+        print("Subject:" , self.subject)
         
 class Student(School):
     def __init__(self, name, location, grade, roll_number):

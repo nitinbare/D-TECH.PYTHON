@@ -1,0 +1,279 @@
+que ) what is programming ?
+set of instructions given to the computer to perform specific task
+called programming
+
+que) what is python programming ?
+python is high level, interpreted,dynamically typed, open source , 
+Object oriented language used in software development and AIML.
+
+high level - human understandable
+interpreted - code execute line by line
+dynamically typed - no need to declare data typed
+open source - free to use
+Object oriented - focus on reusability and modular code
+
+que) what are the features of python ?
+1. open source
+2. high level
+3. dynamically typed
+4. database support ( sqlalchemy )
+5. platform independent - runs on diff os
+6. standard libraries support
+7. Object oriented
+8. case sensitive
+9. large community support 
+10. provide GUI (Graphical User Interface) -- tkinter , streamlit
+
+que ) who invented python and in which year ?
+guido van rossom developed python in 1989 
+but first version of python released in 1991
+
+que ) difference btw python2 and python3
+python2 officially ended in 2020 where as python3 actively support
+python2 uses unicode for string where as python3 has default unicode
+python2 has true division where as python3 has floor div which return int output
+python2 is less secure than python3
+
+que) what is variable ?
+variable is a container that store data value 
+
+Rules to define variables:
+1.variables contain numbers, alphabets and underscore
+2.variables are case sensitive
+3.keywords are not used as variables name
+4.special character except underscore  and white spaces not allowed,
+5.variables name cannot start with numbers
+
+naming convensions:
+python program
+1. camelcase : pythonProgram
+2. snakecase : python_program
+3. pascalcase : PythonProgram
+
+Que ) what is keywords ?
+keywords are reserved words whose meaning already defined in python interpreter
+
+notes:
+1. there are 35 to 39 keywords in python depends on version.
+2. keywords are case sensitive
+3. all keywords are in small case except True, False and None.
+4. keywords are not used as variable name
+
+Que) what is identifier ?
+User defined names gives to classes, modules, packages to identify program
+
+Que ) what is Operators ?
+Operators are the symbols used to perform specific task
+
+types of operators:
+1.arithmetic op : 
+perform arithmetic operations on the values
++ - * / // % ** 
+// = int value 
+/ =  float values
+
+
+2. assignment op :
+assign values to the variable
+= += -= *= /= //= **=
+
+3. logical OP:
+used to compare multiple conditions 
+
+and , or, not
+and = return true if both condiitons are true
+or = returns true if one of the conditon is true
+not = if condition is false it returns true and if condition true it returns false
+
+4.comparison
+used to compare values from both side
+== >= <= > < !=
+
+
+5. bitwise op:
+works on bits 
+decimal values convert into binary and then operation perform on binary values
+
+bitwise and - 
+bitwise or -
+bitwise Xor -
+left shift -
+right shift - 
+
+6.membership op:
+used to check value is present in seq or not
+in 
+not in 
+
+7.identity op :
+used to check memory location
+
+is 
+is not
+
+que ) what is differnce btw is and == ?
+is is identity operator which is used to check memory location
+whereas == is comparision operator which is used to check values of the both side
+
+
+Que ) what are the data types in python 
+numeric = int, float , complex
+boolean
+set 
+dict
+sequence typed - list , tuple, string
+
+ques) what are the data stuctures in python
+set
+dict
+list
+tuple
+string
+
+set : set is collection of items stored in one variable enclosed in curly brackets
+having properties unordered, mutable, heterogenous and unique.
+set methods :
+add() - element add at end of the set
+update() - add multiple element in the set
+union() - returns combination of two set
+intersection() - returns common elements from two sets
+difference() - element present in set A which are not present in set B or
+element preent in set B which are not presetn in set a
+symmetric difference() - (A - B) and (B - A)
+issubset() - used to check current set is subset of other set
+issuperset() - used to check current set is superset of other set 
+remove() - it returns the error if element not present
+discard() - it does not return the error if element not present
+pop() - randomly delete the element
+clear() - all elements Remove 
+empty set - 
+
+2 ) list : List is collection of items stored in one variable enclosed in square brackets
+having properties ordered, mutable, heterogenous and allow duplicates.
+
+methods of list :
+append() - add element in the end of the list
+extend() - combine two list or add multiple elements
+pop() - it removes first occurance of the element
+remove() - remove last inserted element 
+insert() - insert element at the specific position
+count() - count occurance of element
+clear() - remove all elements
+copy() - create duplicate list or shallow copy
+reverse() - it reverse the order of the list
+sort() - sort the list according to ascecending or descending order
+
+l = [19,30,24,36,46,76,34,23]
+i want to sort this list in descending order
+---- sort list and then revrse it using reverse () methods
+
+3)  dict : dictionary is collections of items stored in key value pair enclosed in curly brackets
+having properties unordered, keys are unique and values may be duplicate, heterogenous, mutable
+
+methods :
+get() - get values of the key
+update() - add new key value pair
+keys() - it returns all keys from the dict
+items() - it returns key and value pair in tuple
+values() - it returns all values from the dict
+pop() -remove specific element 
+copy() - create a shallow copy 
+clear() - remove all elements
+popitem() - remove last inserted element
+
+
+4) tuple :tuple is collection of items stored in one variable enclosed in parenthesis
+having properties ordered, immutable, heterogenous, allow duplicates
+
+methods:
+1. count() -  count of occurance of element
+2. index() - it return particular element using index
+
+5) string:string is sequence of characters enclosed in single quote or double quote
+having properties homogenous, immutable, ordered, allow duplicates
+
+methods :
+strip() - remove blank space from both side
+uppper() =  convert text into upper case
+lower() = convert text into lower case
+title() - first letter of each word in sentence is capital
+capitalize() - first letter of the sentence is capital.
+split() - it spilt the string into spefic string
+join() - join words using delimiter
+lstrip() - remove blank spaces from left side
+rstrip() - remove blank spaces from right side
+isnum() - check string contain numbers or not
+isalnum() = check string contain numbers and alphabets
+isalpha() - check the string contain alphabets
+isstartswith() - check the string strat with
+isendwith() - it also check the ends with 
+
+text = "###ABC###"
+text = "ABC"
+
+question) what is string slicing and string indexing
+string indexing is used to access particular element from the string
+types of indexing 
+1. positive indexing
+starts from left to right and starts from 0
+
+2. negative indexing
+starts from right to left and  starts from -1 
+
+string slicing :
+extract subpart of the string using start stop and step
+[start:stop:step]
+start - inclusive
+stop - exclusive
+
+que )  what is type casting ?
+conversion of one data type to another data type
+there ate two types :
+1. implicit type casting - automatically convert data types into another types 
+2. explicit type casting - manually convert by user(programmer ) according to their need
+
+que ) what is difference between break, pass and continue  statement ?
+break = immediately stop the loop
+continue = skip current iteration
+pass = do nothing act like a placeholder
+
+que) diff btw for loop and while loop ?
+in for loop no of iterations are known whereas in while loop no of iterations are unknown
+
+que) what is elif statement ?
+it used to check multiple conditions
+
+ques ) what is nested if ?
+first condition depends on another condition
+
+ques) what is function ?
+block of code used to perform specific task called functions
+
+types of functions
+1. user defined functions - function created by user
+2. build in functions - functions which is defined by python interpreter
+
+user defined functions has two types:
+1. parameterized functions - functions which has parameters 
+2. non parameterized functions - functions which does not have parameters 
+
+que) what is diff btw parameter and argument ?
+parameters are the variables which assign at the time of function creation
+arguments are the values which created at the time fo function called
+
+que ) which keyword is used to define a function ?
+def 
+
+que ) what is special functions ?
+lambda function - it is small anonomous function which written single like having argument and expression
+using lambda keyword
+map  - used to mapping the sequence (generate new seq from exiting seq)
+
+reduce -  reduce seq in single value (funtool)
+filter - used to apply filter on the seq
+
+Que ) what are the types of arguments ?
+1. positional
+2. default
+3. keyword
+4. arbitary 

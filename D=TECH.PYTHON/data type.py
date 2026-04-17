@@ -147,7 +147,7 @@ l1.count(16)
 print(l1)
 """
 #sort and reverse
-'''
+
 l2 = [10 ,5 ,8 ,15]
 l2.sort(reverse=True)
 
@@ -157,10 +157,10 @@ l3.sort()
 l3.reverse()
 print(l3)
 l2.clear()
-print(l2)'''
+print(l2)
 
 # type casting
-a = 2
+'''a = 2
 b = 2.5
 c = a+b
-print(c)
+print(c)'''
