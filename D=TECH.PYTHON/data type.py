@@ -1,5 +1,4 @@
 #int data type
-'''
 a = 10
 print (a)
 print(type[a])
@@ -7,11 +6,12 @@ b = -10
 print  (b)
 print(type[b])
 
+
 #float data type
 m= -10.5
 print(m)
 print(type[m])
-
+'''
 n = 22.5
 print(n)
 print(type[n])
@@ -147,7 +147,7 @@ l1.count(16)
 print(l1)
 """
 #sort and reverse
-
+'''
 l2 = [10 ,5 ,8 ,15]
 l2.sort(reverse=True)
 
@@ -157,7 +157,7 @@ l3.sort()
 l3.reverse()
 print(l3)
 l2.clear()
-print(l2)
+print(l2)'''
 
 # type casting
 '''a = 2
