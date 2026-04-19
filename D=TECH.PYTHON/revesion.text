@@ -277,3 +277,127 @@ Que ) what are the types of arguments ?
 2. default
 3. keyword
 4. arbitary 
+
+Que ) what is python Oops ?
+Python is Object oriented programming language which use class and object which is real world entities
+in Python there are four pillars:
+1. abstraction
+2. polymorphism
+3. Inheritance
+4. encapsulation
+
+1. abstraction :
+abstraction is a process in which hide complex functionality and showing only essential details
+abstraction is archieved by using - abstract method and abstract base class
+
+2. encapsulation :
+encapsulation is process in which data and method bind together in a single unit
+it used to protect data by using access modifiers
+Access modifiers are:
+1. public : access everywhere
+2. protected : access in class and subclass 
+3. private : access only within class
+
+getter and setter methods - use to access data safely
+getter methods is used to get data 
+setter methods is used to set data
+
+3.polymorphism:
+ability of function to create multiple forms
+types of polymorphism:
+1. method overloading 
+2. method overriding
+
+method overloading: same method name with different parameters
+method overriding : same method name with same parameters
+
+is python support method overloading ?
+No , python does not support method overloading but we can perform using *args 
+
+4.Inheritance:
+Inheritance is a process in which child class inherits properties of parent class
+
+types of  Inheritance:
+
+1. single Inheritance - one child class and one parent class 
+2. multiple Inheritance - more parent class and single child class
+3. multilevel Inheritance - parent class inherits grandparent class and child class inherits properties of parent class means child class indirectly inherits properties of grandparent class
+4. hierarchicical Inheritance - more child class and one parent class so we have multiple objects.
+5. hybrid Inheritance - combination of two or more than two types of Inheritance.
+
+
+que) what is file handling ?
+file handling is a mechanism in which we perform operations like read, write, append on external files 
+external files are binary files, text files or images , videos
+
+modes in file handling:
+r - read
+w - write
+a - append
+
+binary files
+rb - read binary
+wb - write binary
+ab - append binary
+
+with statement : if file not present then it crete automatically and when we perform opertion it get closed automatically
+
+file.close()
+file.open()
+
+read() -- to read complete content in the txt file
+readline() -- to read single line of the text file
+readlines() -- it returns all lines in the form of list 
+
+what is diff btw write mode and append mode ??
+write - it remove old content in the text file and add new content ( mode - w and method - write())
+append - it add the new content at the end of the text file ( mode - a and methods - write())
+
+how i delete text file ??
+import Os 
+os.remove(file name)
+
+Que ) what is exception handling ?
+
+the mechanism which handles the run time errors which disturb the normal flow of execution.
+
+types of errros:
+1. syntaxtical error - are arise due to syntax error
+2. logical error - are arise due to wrong operation 
+3. run time error - are the errors which  generate due to external conditions . for example : division by zero program
+
+run time error are known as exceptions
+
+how we handled this exceptions?
+we use some keyword to handle the exceptions like try, except, finally and else , raise
+
+try - it include risky code
+except - if  exception occur then except block runs 
+finally - error occur or not it always excecute
+raise - to create custom error we use raise keyword
+else - optional block of code
+
+que ) what is modules ?
+module is a single .py file which contain classes, functions and methods
+which used as a module in another file
+
+there are two types of modules:
+1. user defined - are created by user to perform specific task according to need
+2. Build in module - are the modules already defined in python
+
+buid in modules
+math
+os
+calendar
+random
+functool
+keyword
+
+que ) what are packages ?
+packages is collection of multiple modules with init file
+
+__init__ .py -- used for configuration 
+
+types of packages
+1. user defined packages 
+2. built in packages
